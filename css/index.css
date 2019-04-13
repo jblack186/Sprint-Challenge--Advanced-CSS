@@ -160,6 +160,27 @@ p {
   width: 100%;
   margin: 0 auto;
 }
+header .header {
+  display: flex;
+  justify-content: space-evenly;
+  width: 50%;
+  margin: 0 auto;
+  color: #23293B;
+}
+header h1 {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+header nav {
+  list-style: none;
+  padding-bottom: 10px;
+}
+header a {
+  text-decoration: none;
+  color: #F6F6F6;
+  font-size: 1.2rem;
+  font-style: #F6F6F6;
+}
 footer {
   color: #22283B;
   background: #f4f4f4;
@@ -220,4 +241,23 @@ footer {
   width: 100%;
   height: auto;
   border-radius: 10px;
+}
+header .header {
+  display: flex;
+  justify-content: space-evenly;
+  width: 50%;
+  margin: 0 auto;
+}
+header h1 {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+header nav {
+  list-style: none;
+  padding-bottom: 10px;
+}
+header a {
+  text-decoration: none;
+  color: black;
+  font-size: 1.2rem;
 }
