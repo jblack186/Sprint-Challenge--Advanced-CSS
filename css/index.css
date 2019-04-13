@@ -1,3 +1,9 @@
+.p {
+  color: #5E6164;
+}
+.nav-border {
+  background: #F1F1F1;
+}
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -160,26 +166,32 @@ p {
   width: 100%;
   margin: 0 auto;
 }
-header .header {
+.header {
   display: flex;
   justify-content: space-evenly;
-  width: 50%;
   margin: 0 auto;
   color: #23293B;
+  background: #F1F1F1;
 }
-header h1 {
+h1 {
   padding-top: 15px;
   padding-bottom: 15px;
 }
-header nav {
+nav {
+  padding-left: 500px;
+  padding-right: 500px;
   list-style: none;
   padding-bottom: 10px;
 }
-header a {
+a {
   text-decoration: none;
-  color: #F6F6F6;
+  color: black;
   font-size: 1.2rem;
   font-style: #F6F6F6;
+}
+img {
+  display: flex;
+  margin: 0 auto;
 }
 footer {
   color: #22283B;
@@ -216,6 +228,7 @@ footer {
 }
 .home .visit-planets p {
   margin-top: 13px;
+  color: #5E6164;
 }
 .home .walk {
   margin-top: 60px;
@@ -242,22 +255,18 @@ footer {
   height: auto;
   border-radius: 10px;
 }
-header .header {
-  display: flex;
-  justify-content: space-evenly;
-  width: 50%;
-  margin: 0 auto;
+.button {
+  background: #22283A;
+  width: 80px;
+  height: 30px;
+  color: white;
+  border-radius: 5px;
 }
-header h1 {
-  padding-top: 15px;
-  padding-bottom: 15px;
+.button {
+  -webkit-transition-duration: 0.8s;
+  transition-duration: 0.8s;
 }
-header nav {
-  list-style: none;
-  padding-bottom: 10px;
-}
-header a {
-  text-decoration: none;
-  color: black;
-  font-size: 1.2rem;
+.button:hover {
+  background: white;
+  color: #22283A;
 }

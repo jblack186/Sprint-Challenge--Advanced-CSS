@@ -36,6 +36,7 @@
 
     p {
       margin-top: 13px;
+      .p;
     }
   }
 
@@ -73,3 +74,21 @@
     }
   }
 }// home
+
+.button {
+  .butn(@background, @width);
+  height: 30px;
+  color: white;
+  border-radius: 5px;
+}
+  
+.button {
+  -webkit-transition-duration: 0.8s;
+  transition-duration: 0.8s;
+}
+
+.button:hover {
+  background: white;
+  color: @background;
+}
+
