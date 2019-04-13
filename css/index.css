@@ -186,7 +186,8 @@ header nav {
 }
 @media ( max-width: 515px ) {
   header nav {
-    width: 500px;
+    padding: 0;
+    padding-bottom: 15px;
   }
 }
 header a {
