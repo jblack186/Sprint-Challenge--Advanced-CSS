@@ -1,1 +1,59 @@
 // Navigation code here
+
+    header {
+    
+    .header {
+        display: flex;
+        justify-content: space-evenly;
+        
+        margin: 0 auto;
+        color: @header-font-color;
+        .nav-border;
+
+         
+
+    }    
+    
+    h1 {
+       padding-top: 15px;
+       padding-bottom: 15px;
+       font-size: 4rem;
+    }
+    
+    nav {
+       padding-left: 500px;
+       padding-right: 500px;
+        list-style: none;
+        padding-bottom: 10px;
+    
+        @media @phone {
+            padding: 0;
+            padding-bottom: 15px;
+          }
+
+    }
+    
+    a {
+        text-decoration: none;
+        color: black;
+        font-size: 1.4rem;
+        font-style: @nav-bg;
+        
+        
+        @media @phone {
+            display: flex;
+            justify-content: space-evenly;
+        }
+    }
+    
+    img {
+        display: flex;
+        margin: 0 auto;
+
+        @media @phone {
+            width: 100%;
+        }
+    }
+
+}
+    
